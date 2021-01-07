@@ -1,6 +1,6 @@
 This is a tool to shuffle an array of words based on an input secret seed and array length. 
 It is written in python3 and deployed on docker on 20210106.
-The docker container has the same python and numpy libraries pre-installed used during the inital creation of this tool, but you can run this script without docker as well. Make sure to have the correct numpy version as it might change in the future and impact the randomness of the input seed, thus giving a totally different array if you try to recreate the same array based on a unique input seed.
+The docker container has the same python and numpy libraries pre-installed used during the inital creation of this tool, but you can run this script without docker as well. Make sure to have the correct numpy version as it might change in the future and impact the randomness of the input, thus giving a totally different array if you try to recreate the same array based on a unique input.
 
 ---
 
@@ -10,11 +10,9 @@ To run in docker:
 3. run: docker run -it shufflearraycontainer /bin/sh
 4. You should now arrive inside the docker container
 5. run: python3 shuffleArray -s 123456789 -l 24
-	-s argument 123456789 is your input secret
+	-s argument 123456789 is your input.
 	-l argument 24 is your array length, in this case 24.
-6. The output is a shuffled array from 1-24 based on the given input secret seed.
-
-Use this original array for whatever purpose you opened this tool for in the first place.
+6. The output is a shuffled array from 1-24 based on the given input.
 
 ---
 
