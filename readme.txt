@@ -18,7 +18,7 @@ Use this original array for whatever purpose you opened this tool for in the fir
 
 ---
 
-The original array, created 20210106, before WWIII, has been generated with the following libraries:
+Developed on 20210106 with the following libraries:
 numpy version: 1.19.5
 argparse version: 1.1	
 python version: 3.9.1
