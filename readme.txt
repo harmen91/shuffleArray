@@ -6,8 +6,8 @@ The docker container has the same python and numpy libraries pre-installed used 
 
 To run in docker: 
 1. Make sure to have docker installed and up and running on your computer
-2. run: docker build -t arraytest /Path/To/This/Folder/With/Dockerfile/And/Python/Script
-3. run: docker run -it arraytest /bin/sh
+2. run: docker build -t shufflearraycontainer /Path/To/This/Folder/With/Dockerfile/And/Python/Script
+3. run: docker run -it shufflearraycontainer /bin/sh
 4. You should now arrive inside the docker container
 5. run: python3 shuffleArray -s 123456789 -l 24
 	-s argument 123456789 is your input secret
